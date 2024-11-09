@@ -1,0 +1,331 @@
+/* samall and large mobile device, small mobile landscape */
+@media only screen and (max-width:668px){
+    section{
+        margin-top: 50px;
+    }
+    /* navbar */
+    .navbar{
+        padding: 0px 10px 15px 10px;
+        display: block;
+    }
+
+    .navbar.scrolled {
+        background-color:rgba(0, 0, 0, 0.941);
+    }
+    .logo h4{
+        font-size: 20px;
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    nav ul li{
+        margin: 5px 0 5px 8px;
+    }
+    nav ul li a{
+        font-weight: 500;
+    }
+
+    
+    /* banner section */
+    .banner{
+        margin: 150px 0 40px;
+    }
+    .banner h3{
+        font-size: 20px;
+    }
+    
+    .banner h1{
+        font-size: 35px;
+    }
+    .banner button{
+        padding: 10px 23px;
+        font-size: 16px;
+    }
+
+    /* ==== upcomming-event starrt */
+    .upcomming-event{
+        margin: 0 8px; 
+    }
+    .event{
+        margin:  0 0 20px 0;
+    }
+    .event h5{
+        font-size: 25px;
+
+    }
+    .event span{
+        height: 3px;
+    }
+    
+    .event-main{
+        display: block;
+    }
+    .event-item{
+        padding: 10px;
+    }
+    .event-item img{
+        height: 250px;
+        width: auto;
+       
+    }
+
+    
+    /* EXPLORE THE WORLD SECTION */
+    .world{
+        display: block;
+        padding: 50px 10px;
+    }
+    .world-item{
+        width: 100%;
+        color: white;
+    }
+    .world-item h1{
+        font-size: 40px;
+    }
+    .world-item span{
+        height: 3px;
+    }
+    .world-item p{
+        margin: 20px 0;
+    }
+    .world-item a{
+        font-size: 18px;
+    }
+    /* ====tours section==== */
+    .tours{
+        margin: 0 5%;
+        display: block;
+    }
+    .tour-item{
+        width: 100%;
+        padding: 0px;
+    }
+   /* unique for  mobile  */
+    .mobile-design{
+        display: flex ;
+    }
+
+    .tour-item h4{
+        font-size: 20px;
+    }
+    .tour-item span{
+        height: 3px;
+        width: 120px;
+    }
+    .tour-item a{
+        display: inline-block;
+        margin: 0 0 30px 0;
+    }
+
+    .img-one{
+       width: 45%;
+       height: 150px;
+       padding: 5px; 
+       object-fit: cover;
+       margin: 0;
+       
+    }
+    .img-two{
+        width: 45%;
+       height: 150px;
+       padding: 5px; 
+       object-fit: cover;
+       margin: 0;
+    }
+    /* footer  */
+    footer{
+        padding: 50px 10px;
+    }
+    .fab{
+        font-size: 20px;
+        margin: 0 0 0 10px;
+    }
+}
+
+/* large mobiel landscape , tab,*/
+@media only screen and (min-width:669px) and (max-width:768px){
+    section{
+        margin-top: 60px;
+    }
+
+     /* navbar */
+     .navbar{
+        padding: 0px 10px 15px 10px;
+        display: block;
+    }
+   
+    .logo h4{
+        font-size: 22px;
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    nav ul li{
+        margin: 5px 0 5px 8px;
+    }
+    nav ul li a{
+        font-weight: 500;
+    }
+
+    /* banner section */
+    .banner{
+        margin: 150px 0 60px;
+    }
+    .banner h3{
+        font-size: 25px;
+    }
+    
+    .banner h1{
+        font-size: 45px;
+    }
+    .banner button{
+        padding: 12px 27px;
+        font-size: 17px;
+    }
+
+
+    /* ==== upcomming-event start */
+    .upcomming-event{
+        margin: 0 15px; 
+    }
+    .event{
+        margin:  0 0 30px 0;
+    }
+    .event h5{
+        font-size: 25px;
+
+    }
+    .event-item{
+        padding: 15px;
+    }
+    .event-item img{
+        height: 300px;
+    }
+
+    /* EXPLORE THE WORLD SECTION */
+    .world{
+        display: block;
+        padding: 60px 10px;
+    }
+    .world-item{
+        width: 100%;
+    }
+    .world-item h1{
+        font-size: 50px;
+    }
+    .world-item p{
+        margin: 20px 0;
+    }
+    .world-item a{
+        font-size: 18px;
+    }
+
+     /* ====tours section==== */
+     .tours{
+        margin: 0 5%;
+        display: block;
+    }
+    .tour-item{
+        width: 100%;
+        padding: 0px;
+    }
+   /* unique for  mobile  */
+    .mobile-design{
+        display: flex ;
+    }
+
+    .tour-item h4{
+        font-size: 25px;
+    }
+    .tour-item span{
+        height: 4px;
+        width: 200px;
+    }
+    .tour-item a{
+        display: inline-block;
+        margin: 0 0 30px 0;
+    }
+
+    .img-one{
+       width: 50%;
+       height: 150px;
+       padding: 5px; 
+       object-fit: cover;
+       margin: 0;
+       
+    }
+    .img-two{
+        width: 45%;
+       height: 150px;
+       padding: 5px; 
+       object-fit: cover;
+       margin: 0;
+    }
+   
+     /* footer  */
+     footer{
+        padding: 50px 10px;
+    }
+    .fab{
+        font-size: 25px;
+        margin: 0 0 0 10px;
+    }
+   
+}
+
+/* tab landScape / small desktop */
+@media only screen and (min-width:769px) and (max-width:992px) {
+    section{
+        margin-top: 70px;
+    }
+
+    /* banner section */
+   
+    .banner h3{
+        font-size: 30px;
+    }
+    
+    .banner h1{
+        font-size: 55px;
+    }
+
+    /* ==== upcomming-event starrt */
+    .upcomming-event{
+        margin: 0 25px; 
+    }
+    .event-item img{
+        height: 350px;
+    }
+    
+    /* EXPLORE THE WORLD SECTION */
+    .world-item h1{
+        font-size: 55px;
+    }
+     /* footer  */
+     footer{
+        padding: 50px 10px;
+    }
+    .fab{
+        font-size: 30px;
+        margin: 0 0 0 20px;
+    }
+   
+}
+
+/* small laptop */
+@media only screen and (min-width:993px) and (max-width:1024px) {
+    section{
+        margin-top: 80px;
+    }
+}
+
+/* large laptop and large monitor
+@media only screen and (min-width:1025px) and (max-width:1440px) {
+    .navbar{
+        background-color: purple;
+    }
+} */
